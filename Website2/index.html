@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeDay</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="images/logo.png" alt="Cafe" class="logo">
+                <ul class="main-nav"  id= "check-class" >
+                    <li><a href="#">Cake Delivery</a></li>
+                    <li><a href="#">How to order</a></li>
+                    <li><a href="#">See more</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+                <a href="#" class="mobile-icon" onclick="slide()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="main-content-header">
+        <h1>Welcome to <br><span class="colorchange">Steamin' Mugs</span>. <br>
+            An oasis of pleasure</h1>
+        <a href="#" class="btn btn-full">Click to order</a>
+        <a href="#" class="btn btn-half">Show More</a>
+        </div>
+    </header>
+    
+    
+
+    
+    <script type="text/javascript">
+     function slide(){
+         var x = document.getElementById("check-class")
+         if(x.style.display == 'none'){
+             x.style.display = 'block';
+         } else{
+             x.style.display = 'none';
+         }
+     }
+    
+    
+    </script>
+
+</body>
+</html>
